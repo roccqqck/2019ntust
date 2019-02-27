@@ -1,4 +1,4 @@
-﻿Open terminal
+Open terminal dev3
 
 
 $ sudo spctl --master-disable
