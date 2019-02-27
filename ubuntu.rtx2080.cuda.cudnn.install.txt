@@ -1,4 +1,4 @@
-ubuntu 18.04.01 RTX-2080 
+ubuntu 18.04.01 RTX 2080 
 
 
 
