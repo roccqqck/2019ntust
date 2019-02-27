@@ -4,9 +4,17 @@ ubuntu 18.04.01 RTX 2080
 
 
 $ sudo apt update
-$ sudo apt upgrade
 
 
+安裝xrdp 遠端
+
+$ wget http://www.c-nergy.be/downloads/Std-Xrdp-Install-0.5.1.zip
+$ unzip Std-Xrdp-Install-0.5.1.zip
+$ chmod +x Std-Xrdp-Install-0.5.1.sh
+$ ./Std-Xrdp-Install-0.5.1.sh -s yes -g yes 
+
+重開機
+$ sudo reboot
 
 
 安裝openssh
@@ -17,19 +25,7 @@ $ sudo apt install openssh-server
 $ sudo apt install ibus-chewing
 
 
-安裝xrdp 遠端
-
-
-$ wget http://www.c-nergy.be/downloads/Std-Xrdp-Install-0.5.1.zip
-$ unzip Std-Xrdp-Install-0.5.1.zip
-$ chmod +x Std-Xrdp-Install-0.5.1.sh
-$ sudo apt install xserver-xorg-core
-$ ./Std-Xrdp-Install-0.5.1.sh -s yes -g yes 
-
-
-重開機
-$ sudo reboot
-
+$ sudo apt upgrade
 
 
 
